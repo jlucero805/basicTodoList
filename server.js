@@ -40,6 +40,6 @@ app.delete('/basicTodoList/:id', async (req, res) => {
 	res.sendStatus(202);
 })
 
-app.listen(3001, () => {
+app.listen(6969, () => {
 	console.log('listening...');
 });
