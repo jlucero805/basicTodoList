@@ -44,6 +44,6 @@ app.get('/basicTodoList/test', async (req, res) => {
 	res.json({res: "success"}).status(200);
 });
 
-app.listen(6969, () => {
+app.listen(8087, () => {
 	console.log('listening...');
 });
