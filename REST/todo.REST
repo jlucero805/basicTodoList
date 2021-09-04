@@ -1,0 +1,15 @@
+GET http://localhost:3001/basicTodoList
+
+###
+GET http://localhost:3001/basicTodoList/6132edf3831a29024e7201ba
+
+###
+DELETE http://localhost:3001/basicTodoList/6132edf3831a29024e7201ba
+
+###
+POST http://localhost:3001/basicTodoList
+Content-Type: application/json
+
+{
+	"body": "test"
+}
