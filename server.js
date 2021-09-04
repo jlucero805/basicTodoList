@@ -40,8 +40,8 @@ app.delete('/basicTodoList/:id', async (req, res) => {
 	res.sendStatus(202);
 })
 
-app.get('/basicTodoList/test', async (req, res) => {
-	res.json({res: "success"}).status(200);
+app.get('/basicTodoList/test/test', async (req, res) => {
+	res.sendStatus(200);
 });
 
 app.listen(8081, () => {
